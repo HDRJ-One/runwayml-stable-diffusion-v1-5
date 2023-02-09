@@ -20,6 +20,7 @@
   "norm_num_groups": 32,
   "out_channels": 3,
   "sample_size": 512,
+  "scaling_factor": 0.18215,
   "up_block_types": [
     "UpDecoderBlock2D",
     "UpDecoderBlock2D",
