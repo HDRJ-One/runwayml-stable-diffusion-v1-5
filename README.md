@@ -203,5 +203,5 @@ Based on that information, we estimate the following CO2 emissions using the [Ma
         pages     = {10684-10695}
     }
 ```
-
+print("go")
 *This model card was written by: Robin Rombach and Patrick Esser and is based on the [DALL-E Mini model card](https://huggingface.co/dalle-mini/dalle-mini).*
