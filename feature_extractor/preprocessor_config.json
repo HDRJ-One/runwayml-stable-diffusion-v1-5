@@ -4,7 +4,7 @@
   "do_convert_rgb": true,
   "do_normalize": true,
   "do_resize": true,
-  "feature_extractor_type": "CLIPFeatureExtractor",
+  "feature_extractor_type": "CLIPImageProcessor",
   "image_mean": [
     0.48145466,
     0.4578275,
