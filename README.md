@@ -5,16 +5,49 @@ tags:
 - stable-diffusion-diffusers
 - text-to-image
 inference: true
-extra_gated_prompt: |-
-  This model is open access and available to all, with a CreativeML OpenRAIL-M license further specifying rights and usage.
+extra_gated_prompt: >-
+  This model is open access and available to all, with a CreativeML OpenRAIL-M
+  license further specifying rights and usage.
+
   The CreativeML OpenRAIL License specifies: 
 
-  1. You can't use the model to deliberately produce nor share illegal or harmful outputs or content 
-  2. CompVis claims no rights on the outputs you generate, you are free to use them and are accountable for their use which must not go against the provisions set in the license
-  3. You may re-distribute the weights and use the model commercially and/or as a service. If you do, please be aware you have to include the same use restrictions as the ones in the license and share a copy of the CreativeML OpenRAIL-M to all your users (please read the license entirely and carefully)
-  Please read the full license carefully here: https://huggingface.co/spaces/CompVis/stable-diffusion-license
+
+  1. You can't use the model to deliberately produce nor share illegal or
+  harmful outputs or content 
+
+  2. CompVis claims no rights on the outputs you generate, you are free to use
+  them and are accountable for their use which must not go against the
+  provisions set in the license
+
+  3. You may re-distribute the weights and use the model commercially and/or as
+  a service. If you do, please be aware you have to include the same use
+  restrictions as the ones in the license and share a copy of the CreativeML
+  OpenRAIL-M to all your users (please read the license entirely and carefully)
+
+  Please read the full license carefully here:
+  https://huggingface.co/spaces/CompVis/stable-diffusion-license
       
 extra_gated_heading: Please read the LICENSE to access this model
+datasets:
+- fka/awesome-chatgpt-prompts
+- databricks/databricks-dolly-15k
+- Nerfgun3/bad_prompt
+- Gustavosta/Stable-Diffusion-Prompts
+- nomic-ai/gpt4all_prompt_generations
+- dair-ai/emotion
+- ProGamerGov/StableDiffusion-v1-5-Regularization-Images
+- succinctly/midjourney-prompts
+- succinctly/medium-titles-and-images
+- bigcode/starcoderdata
+- facebook/multilingual_librispeech
+- go_emotions
+- HuggingFaceH4/stack-exchange-preferences
+- togethercomputer/RedPajama-Data-1T
+- laion/laion-high-resolution
+- BelleGroup/train_2M_CN
+- oscar-corpus/OSCAR-2109
+- animelover/danbooru2022
+pipeline_tag: text-to-image
 ---
 
 # Stable Diffusion v1-5 Model Card
