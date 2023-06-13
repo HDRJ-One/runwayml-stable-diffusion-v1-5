@@ -1,6 +1,6 @@
 {
   "_class_name": "AutoencoderKL",
-  "_diffusers_version": "0.6.0",
+  "_diffusers_version": "0.17.0.dev0",
   "act_fn": "silu",
   "block_out_channels": [
     128,
@@ -20,6 +20,7 @@
   "norm_num_groups": 32,
   "out_channels": 3,
   "sample_size": 512,
+  "scaling_factor": 0.18215,
   "up_block_types": [
     "UpDecoderBlock2D",
     "UpDecoderBlock2D",
