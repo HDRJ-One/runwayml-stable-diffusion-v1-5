@@ -38,7 +38,7 @@ pipe = pipe.to("cuda")
 
 prompt = "a photo of an astronaut riding a horse on mars"
 image = pipe(prompt).images[0]  
-    
+pipe.safety_checker = lambda images, clip_input: (images, False)    
 image.save("astronaut_rides_horse.png")
 ```
 For more detailed instructions, use-cases and examples in JAX follow the instructions [here](https://github.com/huggingface/diffusers#text-to-image-generation-with-stable-diffusion)
