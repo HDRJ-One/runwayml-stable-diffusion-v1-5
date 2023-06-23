@@ -1,5 +1,5 @@
 {
-  "_commit_hash": "4bb648a606ef040e7685bde262611766a5fdd67b",
+  "_commit_hash": "cb41f3a270d63d454d385fc2e4f571c487c253c5",
   "_name_or_path": "CompVis/stable-diffusion-safety-checker",
   "architectures": [
     "StableDiffusionSafetyChecker"
@@ -14,6 +14,7 @@
     "architectures": null,
     "attention_dropout": 0.0,
     "bad_words_ids": null,
+    "begin_suppress_tokens": null,
     "bos_token_id": 0,
     "chunk_size_feed_forward": 0,
     "cross_attention_hidden_size": null,
@@ -61,12 +62,14 @@
     "pad_token_id": 1,
     "prefix": null,
     "problem_type": null,
+    "projection_dim": 512,
     "pruned_heads": {},
     "remove_invalid_values": false,
     "repetition_penalty": 1.0,
     "return_dict": true,
     "return_dict_in_generate": false,
     "sep_token_id": null,
+    "suppress_tokens": null,
     "task_specific_params": null,
     "temperature": 1.0,
     "tf_legacy_loss": false,
@@ -77,18 +80,12 @@
     "top_p": 1.0,
     "torch_dtype": null,
     "torchscript": false,
-    "transformers_version": "4.22.0.dev0",
+    "transformers_version": "4.30.2",
     "typical_p": 1.0,
     "use_bfloat16": false,
     "vocab_size": 49408
   },
-  "text_config_dict": {
-    "hidden_size": 768,
-    "intermediate_size": 3072,
-    "num_attention_heads": 12,
-    "num_hidden_layers": 12
-  },
-  "torch_dtype": "float32",
+  "torch_dtype": "float16",
   "transformers_version": null,
   "vision_config": {
     "_name_or_path": "",
@@ -96,6 +93,7 @@
     "architectures": null,
     "attention_dropout": 0.0,
     "bad_words_ids": null,
+    "begin_suppress_tokens": null,
     "bos_token_id": null,
     "chunk_size_feed_forward": 0,
     "cross_attention_hidden_size": null,
@@ -145,12 +143,14 @@
     "patch_size": 14,
     "prefix": null,
     "problem_type": null,
+    "projection_dim": 512,
     "pruned_heads": {},
     "remove_invalid_values": false,
     "repetition_penalty": 1.0,
     "return_dict": true,
     "return_dict_in_generate": false,
     "sep_token_id": null,
+    "suppress_tokens": null,
     "task_specific_params": null,
     "temperature": 1.0,
     "tf_legacy_loss": false,
@@ -161,15 +161,8 @@
     "top_p": 1.0,
     "torch_dtype": null,
     "torchscript": false,
-    "transformers_version": "4.22.0.dev0",
+    "transformers_version": "4.30.2",
     "typical_p": 1.0,
     "use_bfloat16": false
-  },
-  "vision_config_dict": {
-    "hidden_size": 1024,
-    "intermediate_size": 4096,
-    "num_attention_heads": 16,
-    "num_hidden_layers": 24,
-    "patch_size": 14
   }
 }
