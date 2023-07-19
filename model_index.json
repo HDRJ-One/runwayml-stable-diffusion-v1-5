@@ -1,10 +1,11 @@
 {
   "_class_name": "StableDiffusionPipeline",
-  "_diffusers_version": "0.6.0",
+  "_diffusers_version": "0.18.0.dev0",
   "feature_extractor": [
     "transformers",
-    "CLIPImageProcessor"
+    "CLIPFeatureExtractor"
   ],
+  "requires_safety_checker": true,
   "safety_checker": [
     "stable_diffusion",
     "StableDiffusionSafetyChecker"
