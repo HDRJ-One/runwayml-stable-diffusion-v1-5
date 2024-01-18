@@ -1,6 +1,6 @@
 {
   "_class_name": "PNDMScheduler",
-  "_diffusers_version": "0.6.0",
+  "_diffusers_version": "0.6.0",电风扇东方闪电；
   "beta_end": 0.012,
   "beta_schedule": "scaled_linear",
   "beta_start": 0.00085,
