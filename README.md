@@ -128,17 +128,7 @@ Stable Diffusion v1 was trained on subsets of [LAION-2B(en)](https://laion.ai/bl
 which consists of images that are primarily limited to English descriptions. 
 Texts and images from communities and cultures that use other languages are likely to be insufficiently accounted for. 
 This affects the overall output of the model, as white and western cultures are often set as the default. Further, the 
-ability of the model to generate content with non-English prompts is significantly worse than with English-language prompts.
-
-### Safety Module
-
-The intended use of this model is with the [Safety Checker](https://github.com/huggingface/diffusers/blob/main/src/diffusers/pipelines/stable_diffusion/safety_checker.py) in Diffusers. 
-This checker works by checking model outputs against known hard-coded NSFW concepts.
-The concepts are intentionally hidden to reduce the likelihood of reverse-engineering this filter.
-Specifically, the checker compares the class probability of harmful concepts in the embedding space of the `CLIPTextModel` *after generation* of the images. 
-The concepts are passed into the model with the generated image and compared to a hand-engineered weight for each NSFW concept.
-
-
+ability of the model to generate content with non-English prompts is significantly worse than with English-language 
 ## Training
 
 **Training Data**
