@@ -49,7 +49,8 @@ For more detailed instructions, use-cases and examples in JAX follow the instruc
    - [v1-5-pruned-emaonly.ckpt](https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt) - 4.27GB, ema-only weight. uses less VRAM - suitable for inference
    - [v1-5-pruned.ckpt](https://huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned.ckpt) - 7.7GB, ema+non-ema weights. uses more VRAM - suitable for fine-tuning
 
-2. Follow instructions [here](https://github.com/runwayml/stable-diffusion).
+2. Follow instructions [here (deprecated)](https://github.com/runwayml/stable-diffusion).
+3. [here](https://github.com/HDRJ-One/runwayml-stable-diffusion-v1-5/)
 
 ## Model Details
 - **Developed by:** Robin Rombach, Patrick Esser
